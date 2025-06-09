@@ -54,6 +54,17 @@ const Container = styled.div`
             }
         }
     }
+
+    @media (max-width: 480px) {
+           .wrapper-items{
+            h3{
+                height: 30px !important;
+            }
+        }
+        .wrapper-award{
+            justify-content: start !important;
+        }
+    }
     
  
 `

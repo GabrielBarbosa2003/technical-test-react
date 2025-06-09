@@ -12,6 +12,8 @@ export const TopHeader = styled.div `
     p{
         color: #ffffff;
     }
+
+
 `
 
 export const Container = styled.div`
@@ -35,6 +37,24 @@ export const Container = styled.div`
             border: 2px solid #f0f0f0;
             padding-left: 5px;
         }
+    }
+
+    @media (max-width: 480px) {
+        padding: 0px 18px;
+        padding-bottom: 20px;
+            h1{
+                font-size: 24px;
+            }
+            .ave-values{
+                flex-direction: column;
+                p{
+                    font-size: 14px;
+                }
+                input{
+                    margin-top: 10px;
+                    width: 100%;
+                }
+            }
     }
 
 `
